@@ -13,6 +13,7 @@ ln -s ./kitty-themes/themes/$theme.conf ~/.config/kitty/theme.conf
 echo "include ./theme.conf" >> ~/.config/kitty/kity.conf
 
 sudo pacman -S zsh --noconfirm
+cd
 cd .config
 mkdir zsh
 cd zsh
