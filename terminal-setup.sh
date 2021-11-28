@@ -19,13 +19,13 @@ mkdir zsh
 cd zsh
 sudo pacman -S git --noconfirm
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git
-echo 'source .config/zsh/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
+echo 'source ~/.config/zsh/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
 
 git clone https://github.com/zsh-users/zsh-autosuggestions
-echo 'source .config/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh' >>~/.zshrc
+echo 'source ~/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh' >>~/.zshrc
 
 git clone https://github.com/zsh-users/zsh-history-substring-search
-echo 'source .config/zsh/zsh-history-substring-search.zsh' >>~/.zshrc
+echo 'source ~/.config/zsh/zsh-history-substring-search.zsh' >>~/.zshrc
 
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
-echo 'source .config/zsh/zsh-syntax-highlighting' >>~/.zshrc
+echo 'source ~/.config/zsh/zsh-syntax-highlighting' >>~/.zshrc
